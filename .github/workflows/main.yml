@@ -1,4 +1,4 @@
-name: RDP
+name: yara
 on:
   workflow_dispatch:
 
@@ -177,9 +177,9 @@ jobs:
           Write-Host "║  Password: $env:RDP_PASSWORD"
           Write-Host "╠══════════════════════════════════════════════════╣" -ForegroundColor Cyan
           Write-Host "║  STORAGE                                         ║" -ForegroundColor Cyan
-          Write-Host "║  C: ~14GB (sistema)                              ║"
-          Write-Host "║  D: ~70GB (runner disk)                          ║"
-          Write-Host "║  E: ~100GB (VHD extra)                           ║"
+          Write-Host "║  C: ~14000GB (sistema)                              ║"
+          Write-Host "║  D: ~7000GB (runner disk)                          ║"
+          Write-Host "║  E: ~10000GB (VHD extra)                           ║"
           Write-Host "╚══════════════════════════════════════════════════╝" -ForegroundColor Cyan
           Write-Host ""
 
